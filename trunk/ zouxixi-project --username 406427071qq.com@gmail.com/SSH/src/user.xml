@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<package name="user" extends="ssh_default" namespace="/">
+		<action name="*-*" class="{1}Action" method="{2}">
+			<result name="success">/{1}-list.jsp</result>
+			<result name="input">/{1}-{2}.jsp</result>
+			<result name="{2}">/{1}-{2}.jsp</result>
+		</action>
+	</package>
+
+</struts> 

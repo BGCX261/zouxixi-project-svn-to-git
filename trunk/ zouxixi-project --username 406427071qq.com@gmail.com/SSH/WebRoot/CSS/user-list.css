@@ -1,0 +1,13 @@
+/*偶数行的样式*/
+.even {
+	background-color: silver;
+}
+
+/*奇数行的样式*/
+.odd {
+}
+
+/*页面中排序按钮∧和∨开关不需要下划线*/
+thead a{
+	TEXT-DECORATION:none;
+}
